@@ -1,0 +1,53 @@
+<div class="bo"><span></span></div>
+
+.bo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 0px solid #000;
+}
+.bo span:before {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+}
+.bo span:after {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.bo span:before {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 100px;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+}
+.bo span:after {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 100px;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
